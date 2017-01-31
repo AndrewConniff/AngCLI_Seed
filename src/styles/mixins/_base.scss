@@ -1,0 +1,37 @@
+/* Master Styles */
+@import 'colors';
+@import 'fonts';
+
+h1 {
+  color: $heading-blue; 
+  font-family: $font-family;   
+  font-size: 250%;
+}
+h2, h3 { 
+  color: $heading-blue;
+  font-family: $font-family;   
+  font-weight: lighter;
+}
+body { 
+  margin: 0; 
+  background-color: $white;
+}
+
+body, input[text], button { 
+  color: $body-text;
+  font-family: $font-family; 
+}
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+// add other base CSS here
+body {
+  background-color: lightgray;
+}
+
+/* everywhere else */
+* { 
+  font-family: $font-family; 
+  
+}

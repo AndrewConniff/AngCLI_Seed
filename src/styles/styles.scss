@@ -1,0 +1,8 @@
+// Base Styles
+@import 'mixins/base';
+@import 'mixins/colors';
+@import 'mixins/fonts';
+@import 'mixins/animations';
+// import page specific styles here
+
+@import '../app/home/home.component';
